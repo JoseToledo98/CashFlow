@@ -11,8 +11,8 @@ public class Informe {
     
     public Informe() {}
 
-    public Informe(int id, Date fecha, String idAllUtilidad, String idAllIncadores) {
-        this.id = id;
+    public Informe( Date fecha, String idAllUtilidad, String idAllIncadores) {
+       
         this.fecha = fecha;
         this.idAllUtilidad = idAllUtilidad;
         this.idAllIncadores = idAllIncadores;

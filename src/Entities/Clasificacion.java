@@ -8,8 +8,8 @@ public class Clasificacion {
     
     public Clasificacion() {}
 
-    public Clasificacion(int id, String nombre, int idTipoFlujo) {
-        this.id = id;
+    public Clasificacion( String nombre, int idTipoFlujo) {
+        
         this.nombre = nombre;
         this.idTipoFlujo = idTipoFlujo;
     }

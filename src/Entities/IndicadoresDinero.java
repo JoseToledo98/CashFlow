@@ -10,8 +10,8 @@ public class IndicadoresDinero {
     
     public IndicadoresDinero() {}
 
-    public IndicadoresDinero(int id, int numSemana, float monto, String asunto, int idTipoIndicador) {
-        this.id = id;
+    public IndicadoresDinero( int numSemana, float monto, String asunto, int idTipoIndicador) {
+       
         this.numSemana = numSemana;
         this.monto = monto;
         this.asunto = asunto;

@@ -7,8 +7,8 @@ public class TipoIndicador {
    
     public TipoIndicador() {}
 
-    public TipoIndicador(int id, String nombre) {
-        this.id = id;
+    public TipoIndicador( String nombre) {
+        
         this.nombre = nombre;
     }
 
