@@ -2,6 +2,8 @@ package Entities;
 
 public class Utilidad {
     
+    private String idallingresos;
+    private String idallegresos;
     private float egresoTotal;
     private float ingresoTotal;
     private float margen;
@@ -10,7 +12,9 @@ public class Utilidad {
    
     public Utilidad() {}
 
-    public Utilidad(float egresoTotal, float ingresoTotal, float margen, float monto, int semana) {
+    public Utilidad(String idallingresos, String idallegresos, float egresoTotal, float ingresoTotal, float margen, float monto, int semana) {
+        this.idallingresos = idallingresos;
+        this.idallegresos = idallegresos;
         this.egresoTotal = egresoTotal;
         this.ingresoTotal = ingresoTotal;
         this.margen = margen;
@@ -37,5 +41,13 @@ public class Utilidad {
     public int getSemana() {return semana;}
  
     public void setSemana(int semana) {this.semana = semana;}
-   
+
+    public String getIdallingresos() {return idallingresos;}
+
+    public void setIdallingresos(String idallingresos) {this.idallingresos = idallingresos;}
+
+    public String getIdallegresos() {return idallegresos;}
+
+    public void setIdallegresos(String idallegresos) {this.idallegresos = idallegresos;}
+ 
 }
